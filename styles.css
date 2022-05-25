@@ -1,0 +1,194 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Paytone One", sans-serif;
+ 
+    
+  }
+  body{
+     /* background-image: url("./body.jpg"); */
+     background-image:linear-gradient(to right, red , yellow); 
+     color: whitesmoke !important;
+  
+  }
+  
+
+.navbar-brand img {
+    height:8vh;
+    border-radius: 10px;
+    margin-top:10px
+   
+  }
+
+  .nav-item a {
+    font-size: 30px;
+    margin: 0 10px;
+    font-family: "Paytone One", sans-serif;
+  
+  }
+
+  iframe{
+      border-radius: 10px;
+      margin-left: 30px;
+  }
+  
+  .insta {
+    color: #9010da;
+    opacity:50%;
+  }
+  .icons {
+    color: red;
+    opacity:50% !important;
+  }
+
+  .insta:hover{
+      opacity: 100% !important;
+  }
+
+  .icons:hover{
+    opacity: 100% !important;
+  }
+  
+  .carousel-inner img {
+    height: 60vh;
+    border-radius: 10px;
+  }
+  
+ .card{
+     color: black ;
+     margin-top: 30px;
+     border-radius: 50px!important;
+     text-align: center;
+     background-color: #ff7777 !important;
+     
+ }
+ audio{
+     
+ }
+
+  
+ 
+  
+  /* RADIO PLAYER CSS */
+  .button {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: #f59e0b;
+    color: #fff;
+    border-radius: 100%;
+  }
+  .play-pause-button {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    margin-right: 24px;
+  }
+  .mute-button {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+  }
+  
+
+.player-controls{
+
+width: 60%;
+background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+border-radius: 20px;
+color: #ff7777;
+padding:6px 20px;
+margin: 20px 0 0 220px;
+}
+
+.player-controls h2{
+   margin-bottom: 20px!important;
+}
+  
+
+  .currently-playing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+
+  .volume-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currently-playing-label {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .currently-playing-title {
+    font-size: 22px;
+  }
+  
+  .volume {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #000;
+    border-radius: 50px;
+    overflow: hidden; /* This will help with styling the thumb */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+  
+    height: 15px;
+    width: 15px;
+  
+    cursor: ew-resize;
+    background: #f59e0b;
+    box-shadow: -400px 0 0 390px #fde68a;
+    border-radius: 50%;
+  }
+  
+  input[type="range"]:focus {
+    border-radius: 50px;
+    box-shadow: 0 0 15px -4px #f59e0b;
+  }
+
+  /* RADIO PLAYER CSS ENDS */
+  
+  @media (max-width: 500px) {
+    .carousel-inner img {
+      height: 20vh;
+    }
+  
+    .nav-item a {
+      font-size: 20px;
+      margin: 0 10px;
+      text-align: center;
+    }
+    h2, h1{
+        margin: 10px auto!important;
+        text-align: center;
+        color: #F9F3EE;
+    }
+    .player-controls{
+
+    width: 60%;
+    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+    border-radius: 20px;
+    color: #ff7777;
+    padding:6px 20px;
+    margin: 20px 65px;
+   }
+
+   .player-controls h2{
+       margin-bottom: 20px!important;
+   }
+   .col{
+       margin:20px 0 0 12px!important
+   }
+
+   
+  }
+  
